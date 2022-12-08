@@ -15,7 +15,7 @@ Vue.use(VuePageTransition);
 
 
 const routes = [
-  {path: '/rockpaperscissors', name:'/rockpaperscissors', component: ChooseGameMode},
+  {path: '/', name:'/', component: ChooseGameMode},
   {path: '/playermode', name:'playermode', component: PlayerMode},
   {path: '/computermode', name:'computermode', component: ComputerMode},
   {path: '/game', name:'game', component: GameComp}

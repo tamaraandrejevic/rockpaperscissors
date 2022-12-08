@@ -6,9 +6,6 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
     state:{
-        nav: {
-            type: 'not wide by default'
-          },
         counter: 0,
         counterComputer: 0,
         computerModeCounter: 0,
@@ -39,7 +36,6 @@ export default new Vuex.Store({
             state.counter=0;
             state.counterComputer=0;
             state.computerModeCounter=0;
-            console.log('bla')
             if (state.counter > 0){
                 state.counter--;
                 state.counterComputer++;

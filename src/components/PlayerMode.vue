@@ -33,10 +33,6 @@ export default {
       this.choice = choice;
       this.$emit('choice', this.choice);
     },
-  },
-  //do we need updated?
-  updated() {
-    this.btnClicked();
   }
 }
 </script>

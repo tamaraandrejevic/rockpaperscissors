@@ -3,7 +3,7 @@
     <div class="title">
       ROCK, PAPER, SCISSORS
     </div>
-    <div style="display: flex; flex-direction: row; align-items: center;">
+    <div class="scoreDiv">
     <div><img width="50px" src="../assets/images/flag.png" /></div>
     <div id="scoreBox">
       <span class="scoreResult">Score</span>

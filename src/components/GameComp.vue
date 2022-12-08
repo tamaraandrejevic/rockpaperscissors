@@ -114,8 +114,6 @@ export default {
     },
 
     playerModeWinner(you, computerPick) {
-      //this.$store.state.counter=0;
-      //this.$store.state.counterComputer=0;
       if (you == computerPick) {
         this.result = "Draw";
       } else if (you == null) {
@@ -134,8 +132,6 @@ export default {
     },
 
     computerModeWinner(you, computerPick) {
-      //this.$store.state.computerModeCounter=0;
-      //this.$store.state.counterComputer=0;
       this.$emit('computerChoice', computerPick);
       if (you == computerPick) {
         this.result = "Draw";
@@ -191,9 +187,6 @@ export default {
       }, 1200);
     }
     this.animate();
-  },
-  updated(){
-    //this.$emit('computerChoice', this.computerSelection); 
   }
 };
 </script>

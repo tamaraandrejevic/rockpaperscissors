@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <router-link to="/rockpaperscissors">
+    <router-link to="/">
       <button class="basicBtn" id="gameModeBtn">Change Mode</button>
     </router-link>
   </footer>
