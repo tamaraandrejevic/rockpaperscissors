@@ -1,6 +1,5 @@
 {
   "version": "0.1.0",
-  "homepage": "https://tamaraandrejevic.github.io/",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
