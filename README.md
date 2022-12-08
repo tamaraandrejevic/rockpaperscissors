@@ -8,19 +8,13 @@ npm install
 ### Compiles and hot-reloads for development
 ```
 npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-/*test test test test*/
+User Story Front:
+Title: Waste an hour having fun
+Description: As a frequent games player I would like to play rock, paper, scissors so that I can waste an hour
+of my day having fun.
+Acceptance criteria:
+● I can play Player Vs Computer
+● I can play Computer Vs Computer
+● I can play a different game each time
+● Game stores and displays current score. Score restarts once user restarts/ends the game
