@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header-comp v-if="$route.name !== '/'"/>
+    <header-comp v-if="$route.name !== ''"/>
     <vue-page-transition name="zoom">
       <router-view v-if="$store"
         @choice="choice=$event;$store.state.playerSelected=$event;"
@@ -9,7 +9,7 @@
         :playerChoice="$store.state.playerSelected"
       />
     </vue-page-transition>
-    <footer-comp v-if="$route.name !== '/'"/>
+    <footer-comp v-if="$route.name !== ''"/>
   </div>
 </template>
 

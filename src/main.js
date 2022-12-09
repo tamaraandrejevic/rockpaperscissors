@@ -1,4 +1,4 @@
-import  Vue from 'vue'
+import Vue from 'vue'
 import App from './App.vue';
 import VueRouter from 'vue-router';
 import VuePageTransition from 'vue-page-transition';
@@ -15,7 +15,7 @@ Vue.use(VuePageTransition);
 
 
 const routes = [
-  {path: '/', name:'/', component: ChooseGameMode},
+  {path: '/', name:'', component: ChooseGameMode},
   {path: '/playermode', name:'playermode', component: PlayerMode},
   {path: '/computermode', name:'computermode', component: ComputerMode},
   {path: '/game', name:'game', component: GameComp}
@@ -23,9 +23,8 @@ const routes = [
 
 const router = new VueRouter({
   routes,
-  mode: 'history'
+  mode: 'hash',
 });
-
 
 new Vue({
   router,
