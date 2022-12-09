@@ -3,6 +3,7 @@
 1. git clone ...
 2. npm install
 3. npm run serve
+
 ROCK, PAPER, SCISSORS GAME
 Title: Waste an hour having fun
 Description: As a frequent games player I would like to play rock, paper, scissors so that I can waste an hour
